@@ -1,0 +1,18 @@
+[project]
+name = "multimodal-steganalysis-toolkit"
+version = "0.1.0"
+description = "多模态隐写分析检测工具箱"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "林裕斌" },
+  { name = "曾科" },
+  { name = "田承金" },
+  { name = "吕善翔" }
+]
+
+[project.scripts]
+multimodal_steganalysis_toolkit = "multimodal_steganalysis_toolkit.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
